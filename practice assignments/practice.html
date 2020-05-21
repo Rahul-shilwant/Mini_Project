@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="gym Fitness">
+    <title>Gym/Fitness</title>
+
+    <!-- u can include css -->
+    <link rel="stylesheet" href="demo.css">
+
+    <style>
+        ul{
+            background-color: aquamarine;
+
+        }
+        ol{
+
+            background-color: blueviolet;
+        }
+
+
+    </style>
+
+
+    <!-- u can include javascript -->
+    <!-- <script src=""></script> -->
+
+</head>
+
+<body>
+
+    <!-- heading tag from h1 to h6 -->
+
+    <h1>This is first page</h1>
+
+
+    <!-- lorem is used to get some text -->
+    <p>
+        ************lorem*****************************<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis officia rem architecto ex esse id, magni
+        provident, est facilis maiores, numquam quaerat. Quidem, veniam aliquam id temporibus corporis optio. Unde.
+
+    </p>
+
+    <!-- link the page and link image using a href and img src -->
+    <a href="https://www.google.com" target="_blank"> go to goole</a>
+
+    <img src="images/gym-coronavirus.jpg" alt="error to load image">
+
+
+
+
+    <!-- list -->
+    <ul type="circle">
+        <li>this is one</li>
+        <li>this is two</li>
+        <ul>
+            <li>one abc</li>
+            <li>one abc</li>
+            <li>one abc</li>
+        </ul>
+        <li>this is three</li>
+    </ul>
+
+    <ol type="a">
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+    </ol>
+
+    <!-- horizontal line tag -->
+    <hr>
+
+    <!-- table -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>emp_id</th>
+                <th>Emp_role</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Rahul shiwant</td>
+                <td>77</td>
+                <td>programmer</td>
+
+            </tr>
+
+            <tr>
+                <td>Alpha </td>
+                <td>77</td>
+                <td>web developer</td>
+
+            </tr>
+
+        </tbody>
+
+
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- form -->
+    <form action="backend.php">
+        <fieldset>
+            <legend>Enter personal details</legend>
+
+
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="myname" id="name" placeholder="Enter your name">
+
+            </div>
+            <br>
+
+            <div>
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address" placeholder="Enter Your address">
+            </div>
+            <br>
+
+            <div>
+
+                Email:<input type="email" name="myemail">
+
+            </div>
+            <br>
+
+            <div>
+                <label for="ph">Mobile No:</label>
+                <input type="text" name="Mobile" id="ph">
+            </div>
+            <br>
+
+
+            <div>
+
+                Date:<input type="date" name="mydate">
+            </div>
+            <br>
+
+            <div>
+                Male:<input type="radio" name="mygender">
+                Female:<input type="radio" name="mygender">
+            </div>
+            <br>
+
+
+            <div>
+                Age above 18:<input type="checkbox" name="eligiblity">
+            </div>
+            <br>
+
+
+            <div>
+                Enter your description <br><textarea name="mytext" id="" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+
+            <div>
+                <label for="technology">Technology</label>
+                <select name="technology" id="technology">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="php">PHP</option>
+                    <option value="javascript">JAVASCRIPT</option>
+                </select>
+            </div>
+
+
+
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+            <br>
+
+        </fieldset>
+    </form>
+
+
+
+    <!-- id and class -->
+
+
+    <h3 style="color: red; background-color: royalblue;">IDS and Classes</h3>
+    <span> this is rahul</span>
+    <span>shilwant</span>
+    <div id="mainbox" class="redbg blackbg orangebg">
+        id= mainbox , class = redbg blackbg orangebg
+    </div>
+
+    <!-- shortcut for class=. and id=# -->
+
+    <span class="redbg"></span>
+    <span id="mainbox2"></span>
+    <div class="redbg greenbg blue"></div>
+
+
+    <!-- html Entities -->
+    <div class="redbg">
+        <p>this is copyright &copy;</p>
+        <p>this is yuro &euro;</p>
+        <p>this is pound &pound;</p>
+    </div>
+
+</body>
+
+<footer>
+    this is footer
+
+</footer>
+
+</html>
