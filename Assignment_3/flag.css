@@ -1,0 +1,31 @@
+body{
+
+    background-color: silver;
+
+}
+ .flag{
+
+    height: 40em;
+    width: 85em;
+    border: 1px solid;
+} 
+.sizecolor
+{
+   height: 33.33%;
+   
+}
+.color1
+{
+    background-color: orange;
+}
+.color2
+{
+    background-color: white;
+    background-image: url(https://t4.ftcdn.net/jpg/02/80/10/69/240_F_280106949_wsETx6B9SEREG2AJ2lPUVyp33YtIGdQ2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.color3
+{
+    background-color: green;
+}
