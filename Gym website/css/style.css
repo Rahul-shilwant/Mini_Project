@@ -14,8 +14,8 @@ body {
 	margin:0;
 	padding:0;
 	font-family: 'Oswald', sans-serif;
-}
 
+}
 
 header{
 
@@ -47,7 +47,7 @@ header .container .navbar
     position: relative;
     /* border: 1px solid white; */
     height: 0px;
-    margin: 0px;
+    margin: 8px;
     width: 50%;
     
 }
@@ -61,17 +61,17 @@ header .container .navbar a
     color:#ffffff;
     display: block;
     position: relative;
-    padding:10px 30px;
+    padding:0px 30px;
 
 }
 
 header .container .navbar a:hover{
 	
-	padding:8px 30px;
+	padding:50px 30px;
 	background-color: #222222;
 	color:#ffffff;
 	text-decoration: none;
-	display: inline-block;
+	/* display: inline-block; */
 	border:1px solid transparent;
 	cursor: pointer;
 	-webkit-transition: all .5s ease;
@@ -81,12 +81,33 @@ header .container .navbar a:hover{
 header .container .img
 {
     /* position: relative; */
-    width: 50%;
+	width: 84%;
     color: white;
     font-size: 38px;
-    margin: 3px;
-    font-weight: 700;
+	margin: 1px;
+	font-weight: 700;
+	cursor: pointer;
+	text-decoration: none;
+	
 }
+
+header .container .img a{
+	text-decoration: none;
+	/* display: inline block; */
+	color: rgb(180, 6, 6);
+	
+	
+}
+header .container .img a:hover{
+
+	background-color: #222222;
+	text-decoration: none;
+	border:1px solid transparent;
+	cursor: pointer;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
 .container{
 	max-width: 1170px;
 	margin: auto;
@@ -112,7 +133,7 @@ header .container .img
     font-weight: 700;
     text-transform: uppercase;
     padding-top: 156px;
-    padding-left: 167px;
+    padding-top: 156px;
     font-size: 71px;
     
 }
@@ -122,16 +143,17 @@ header .container .img
 }
 
 .home .container .btn{
-	padding:8px 30px;
-	background-color: #222222;
-	color:#ffffff;
-	text-decoration: none;
-	display: inline-block;
-	border:1px solid transparent;
-	cursor: pointer;
-	-webkit-transition: all .5s ease;
-	transition: all .5s ease;
+	padding: 8px 30px;
+    background-color: #222222;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    border: 10px solid transparent;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
     margin-left: 418px;
+    margin-top: 200px;
 }
 
 .home .container .btn:hover{
@@ -211,7 +233,8 @@ header .container .img
 	font-size: 30px;
 	font-weight: 500;
 	color:#ffffff;
-	padding:0px 0px 20px;
+	padding:0px 0px 30px;
+	text-align: center;
 }
 
 .service .content .text p{
@@ -219,7 +242,7 @@ header .container .img
 	line-height:20px;
 	color:#ffffff;
 	margin:0;
-	padding:0px 0px 20px;
+	padding:0px 0px 30px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -286,7 +309,7 @@ header .container .img
 
 .classes{
 	padding:80px 0px 50px;
-	background-color: #ffffff;
+	background-color: grey;
 }
 
 .classes .content{
@@ -407,11 +430,16 @@ header .container .img
 /* ..............................gallery...................   */
 
 /*Gallery Section*/
-/* 
+
+.gallery{
+	background-color: black;
+}
+
 .gallery .content{
 	-webkit-display: flex;
 	display: flex;
 	flex-wrap: wrap;
+	
 }
 
 .gallery .content #box1{
@@ -453,10 +481,10 @@ header .container .img
 .gallery h2{
 	font-size: 30px;
     font-weight: 500;
-    color: #000000;
+    color: white;
     padding: 0px 0px 20px;
     text-align: center;
-} */
+}
 
 /* ..............................gallery..end.................   */
 
@@ -467,6 +495,7 @@ header .container .img
 /* ...............................classes shedule..................  */
 .schedule{
 	padding:80px 0px;
+	background-color: white;
 	
 }
 
@@ -508,10 +537,11 @@ header .container .img
 }
 
 .schedule .content .timing .table td{
-	border:1px solid #dfdfdf;
-	padding: 8px;
-	font-size: 15px;
-	text-align: center;
+
+	border: 1px solid black;
+    padding: 14px;
+    font-size: 20px;
+    text-align: center;
 	color:#222222;
 }
 
@@ -531,9 +561,12 @@ header .container .img
 
 
 /* ...........................................start price......................................... */
+
+
+
 .price-package{
 	padding: 80px 0px;
-	background-color: #ffffff;
+	background-color: grey;
 }
 .price-package h2{
 	font-size: 30px;
@@ -761,7 +794,7 @@ header .container .img
 	height: 327px;
 	padding-top: 155px;
 	background-color: grey	;
-  /* background: url('/img/about/banner-bg.jpg') no-repeat top center; */
+  background: url('/img/about/breadcrumb-bg.jpg') no-repeat top center;
   /* background-size: cover; */
   /* background-repeat: no-repeat;
   background-position: center;
